@@ -95,6 +95,7 @@ int main(int argc, char**argv)
 ## 考試重點
 
 ```C
+{
 　glBegin(GL_TRIANGLES);
 
         glColor3f(1.0f, 0.0f, 0.0f);   glVertex2f(0.0f,   1.0f);
@@ -102,4 +103,5 @@ int main(int argc, char**argv)
         glColor3f(0.0f, 0.0f, 1.0f);   glVertex2f(-0.87f, -0.5f);
 
     glEnd();
+}
 ```
