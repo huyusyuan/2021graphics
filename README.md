@@ -80,3 +80,15 @@ int main(int argc, char**argv)
     glutMainLoop();
 }
 ```
+
+## 多邊形
+```C
+   glBegin(GL_POLYGON);
+
+        glColor3f(0.2f, 0.4f, 0.0f);
+       for (float angle=0; angle<3.1459265358979*2; angle+=0.01){
+            glVertex2f(0.5*cos(angle),0.5*sin(angle));
+       }
+
+    glEnd();
+```
