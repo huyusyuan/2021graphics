@@ -81,7 +81,7 @@ int main(int argc, char**argv)
 }
 ```
 
-## 多邊形
+## 多邊形的程式
 ```C
    glBegin(GL_POLYGON);
 
@@ -89,6 +89,17 @@ int main(int argc, char**argv)
        for (float angle=0; angle<3.1459265358979*2; angle+=0.01){
             glVertex2f(0.5*cos(angle),0.5*sin(angle));
        }
+
+    glEnd();
+```
+## 考試重點
+
+```C
+　glBegin(GL_TRIANGLES);
+
+        glColor3f(1.0f, 0.0f, 0.0f);   glVertex2f(0.0f,   1.0f);
+        glColor3f(0.0f, 1.0f, 0.0f);   glVertex2f(0.87f,  -0.5f);
+        glColor3f(0.0f, 0.0f, 1.0f);   glVertex2f(-0.87f, -0.5f);
 
     glEnd();
 ```
