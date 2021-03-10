@@ -75,8 +75,6 @@ int main(int argc, char**argv)
     glutInit( &argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);
     glutCreateWindow("Week03-circle");
-
-
     glutDisplayFunc( display);
 
     glutMainLoop();
