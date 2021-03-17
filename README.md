@@ -132,9 +132,7 @@ int main(int argc, char**argv)
 
     glutMainLoop();
 }
-
 ```
-
 
 ## 點滑鼠連線的程式
 
@@ -168,5 +166,4 @@ int main(int argc, char**argv)
     glutMotionFunc(motion);
     glutMainLoop();
 }
-
 ```
