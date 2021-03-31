@@ -350,7 +350,7 @@ int main(int argc, char**argv)
 }
 ```
 
-## 雙臂
+## 第五個程式 雙臂
 ```C
 #include <GL/glut.h>
 float angle=0;
