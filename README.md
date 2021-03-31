@@ -348,6 +348,7 @@ int main(int argc, char**argv)
     glutIdleFunc(display);
     glutMainLoop();
 }
+```
 
 ## 雙臂
 ```C
