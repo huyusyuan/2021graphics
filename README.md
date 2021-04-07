@@ -406,3 +406,14 @@ int main(int argc, char**argv)
 }
 
 ```
+
+## 2021/04/07 顯示圖片的程式
+```C
+#include <opencv/highgui.h>
+int main(int argc , char** argv)
+{
+    IplImage * img = cvLoadImage("ariel.jpg");
+    cvShowImage("ariel photo" , img);
+    cvWaitKey(0);
+}
+```
